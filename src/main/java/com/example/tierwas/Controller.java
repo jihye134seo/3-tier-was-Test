@@ -13,7 +13,7 @@ public class Controller {
     TestService testService;
 
     //------------------------실행 테스트-----------------------
-    @GetMapping(value = "3tier/test")
+    @GetMapping(value = "api/test")
     public String test() {
         return testService.test();
     }
